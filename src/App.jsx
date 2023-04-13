@@ -1,4 +1,4 @@
-import './App.css'
+import './index.css'
 import RedesSociais from './components/RedesSociais'
 
 function App() {
