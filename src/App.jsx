@@ -1,5 +1,5 @@
 import './App.css'
-import RedesSociais from './assets/RedesSociais'
+import RedesSociais from './components/RedesSociais'
 
 function App() {
   return (
