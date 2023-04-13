@@ -16,6 +16,7 @@ function RedesSociais() {
   
   return (
     <>
+      {LinksRedes}
     </>
   )
 }
