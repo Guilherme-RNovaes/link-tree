@@ -2,4 +2,14 @@
     text-decoration: none;
     color: var(--second-color);
     background-color: var(--third-color);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding: 18px;
+    position: relative;
+    margin: 15px;
+    transition: 0.3s ease-in;
 }
