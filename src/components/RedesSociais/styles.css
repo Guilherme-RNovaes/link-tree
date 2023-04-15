@@ -1,7 +1,7 @@
 .links-content a {
     text-decoration: none;
     color: var(--bg-color);
-    background-color: var(--third-color);
+    background-color: var(--second-color);
     display: flex;
     justify-content: center;
     text-align: center;
@@ -11,11 +11,15 @@
     padding: 18px;
     position: relative;
     margin: 15px;
-    transition: 0.3s ease-in;
+    outline: 2px solid var(--text-color);
+    transition: all ease 0.3s;
 }
 
-a:hover {
-    transform: scale(1.03);
+.links-content a:hover {
+    background-color: transparent;
+    color: var(--text-color);
+    outline: 2px solid var(--text-color);
+    outline-offset: 5px;
 }
 
 .links-content {

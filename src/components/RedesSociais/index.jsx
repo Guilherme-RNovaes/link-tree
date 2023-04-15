@@ -11,7 +11,7 @@ function RedesSociais() {
 
   const LinksRedes = ListaRedes.map((props) =>
     <div key={props.id} className='links-content'>
-      <a href={props.url}>{props.urlName}</a>
+      <a href={props.url} target="_blank">{props.urlName}</a>
     </div>
   )
   

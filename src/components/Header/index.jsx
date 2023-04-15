@@ -4,8 +4,7 @@ function Header() {
   return (
     <div className="perfil-content">
         <div className="perfil-img"></div>
-        <h3>Guilherme Novaes</h3>
-        <p>Bem Vindo!</p>
+        <h2>Bem Vindo!</h2>
     </div>
   )
 }

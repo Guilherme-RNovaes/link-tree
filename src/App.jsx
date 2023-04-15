@@ -1,5 +1,6 @@
 import Header from './components/Header'
 import RedesSociais from './components/RedesSociais'
+import Footer from './components/Footer'
 
 import './index.css'
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Header />
       <RedesSociais />
+      <Footer />
     </div>
   )
 }
