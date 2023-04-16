@@ -7,6 +7,7 @@
 .perfil-img {
     display: block;
     margin: auto;
+    margin-bottom: 20px;
     width: 96px;
     height: 96px;
     background-size: cover;
